@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*---flex---*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.blocks {
+  display: flex;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background: rgb(99, 76, 76);
+  outline: 1px solid black;
+  font-size: 20px;
+}
+.blocks1 {
+  display: flex;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background: rgb(172, 186, 68);
+  outline: 1px solid black;
+  font-size: 20px;
+}
+.block1-reight {
+  width: 800px;
+  font-size: 20px;
+}
+.box2,
+.box3 {
+  height: 200px;
+  background: rgb(154, 181, 34);
+  outline: 1px solid black;
+}
+.box4 {
+  width: 400px;
+  height: 400px;
+  background: rgb(17, 124, 119);
+  outline: 1px solid black;
+  font-size: 20px;
+}
+.box5 {
+  width: 800px;
+  height: 200px;
+  background: rgb(53, 104, 120);
+  outline: 1px solid black;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.box6 {
+  width: 400px;
+  height: 200px;
+  background: rgb(36, 43, 80);
+  outline: 1px solid black;
+  font-size: 20px;
+}
+.box7 {
+  width: 400px;
+  height: 100px;
+  background: rgb(78, 41, 78);
+  outline: 1px solid black;
+  font-size: 20px;
+}
+.blocks2 {
+  display: flex;
+}
+.block2-bottom {
+  display: flex;
+}
